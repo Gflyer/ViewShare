@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleProgressView">
+        <attr name="roundBgColor" format="color"/>
+        <attr name="roundProgressColor" format="color"/>
+        <attr name="roundWidth" format="dimension"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="max" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="ColorProgressView">
+        <attr name="clo_roundBgColor" format="color"/>
+        <attr name="proColor_fir" format="color"/>
+        <attr name="proColor_sec" format="color"/>
+        <attr name="proColor_thi" format="color"/>
+        <attr name="clo_textColor" format="color"/>
+        <attr name="clo_roundWidth" format="dimension"/>
+        <attr name="clo_textSize" format="dimension"/>
+    </declare-styleable>
+</resources>

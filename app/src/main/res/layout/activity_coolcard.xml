@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gflyer.myscrollviewdemo.CoolCardRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_rl_bg_card"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false">
+
+    <ImageView
+        android:id="@+id/im_bg_pic"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:clipChildren="false"
+        android:overScrollMode="never">
+
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/vp_card"
+        android:id="@+id/layout_ll_ind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"></LinearLayout>
+
+</com.gflyer.myscrollviewdemo.CoolCardRelativeLayout>
